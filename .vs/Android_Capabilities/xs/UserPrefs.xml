@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{D7AA2392-C8ED-42F2-804A-810C22E8915E}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.nexus_one_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.26" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Android__Capabilities AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.nexus_one_pie_9_0_-_api_28" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Android_Capabilities/Contacts/ContactsListComponents/ContactsAdapter.cs">
+    <Files>
+      <File FileName="Android_Capabilities/Contacts/ContactsService.cs" Line="17" Column="59" />
+      <File FileName="Android_Capabilities/Contacts/ContactsActivity.cs" Line="45" Column="46" />
+      <File FileName="Android_Capabilities/Contacts/ContactsListComponents/ContactsAdapter.cs" Line="27" Column="29" />
+      <File FileName="Android_Capabilities/Contacts/ContactsListComponents/ContactsViewHolder.cs" Line="7" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Android_Capabilities" expanded="True">
+            <Node name="Android_Capabilities" expanded="True">
+              <Node name="Contacts" expanded="True">
+                <Node name="ContactsListComponents" expanded="True">
+                  <Node name="ContactsAdapter.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

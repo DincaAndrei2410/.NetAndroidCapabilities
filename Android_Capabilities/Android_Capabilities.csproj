@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationId>com.companyname.Android_Capabilities</ApplicationId>
+    <ApplicationVersion>1</ApplicationVersion>
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Location\" />
+    <None Remove="Services\" />
+    <None Remove="Mappers\" />
+    <None Remove="Location\LocationListComponents\" />
+    <None Remove="Contacts\" />
+    <None Remove="Contacts\ContactsListComponents\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Location\" />
+    <Folder Include="Services - Shared\" />
+    <Folder Include="Mappers\" />
+    <Folder Include="Location\LocationListComponents\" />
+    <Folder Include="Contacts\" />
+    <Folder Include="Contacts\ContactsListComponents\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.6.0.1" />
+    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.8.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+</Project>
